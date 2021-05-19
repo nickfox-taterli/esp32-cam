@@ -1,0 +1,17 @@
+menu "Camera Web Server"
+
+menu "WiFi Settings"
+config ESP_WIFI_SSID
+    string "WiFi SSID"
+    default ""
+    help
+    WiFi SSID (network name) to connect.
+
+config ESP_WIFI_PASSWORD
+    string "WiFi Password"
+    default ""
+    help
+    WiFi Password if WEP/WPA/WPA2.
+endmenu 
+
+endmenu
